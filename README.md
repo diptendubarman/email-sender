@@ -26,7 +26,7 @@ email-sender/
 │   └── tasks.py              # Celery tasks for sending emails
 │
 ├── Dockerfile                # Dockerfile for building FastAPI app image
-├── Dockerfile.celery-worker  # Dockerfile.celery-worker for worker image
+├── Dockerfile.celery  # Dockerfile.celery for worker image
 ├── docker-compose.yml        # Docker Compose file for multi-container setup
 ├── requirements.txt          # Python dependencies
 └── .env                      # Environment variables for Redis configuration
